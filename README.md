@@ -1,1 +1,1 @@
-See on meie programmeerimise kursuse projekti repo.
+See on meie programmeerimise kursuse projekti reposetoorium.
