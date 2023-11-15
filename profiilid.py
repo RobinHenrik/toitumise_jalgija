@@ -64,7 +64,7 @@ def profiili_kustutamine(kustutatav): #PROFIILIDE KUSTUTAMINE
 
 
 def profiili_muutmine(muudetav):
-    print("Sisestage andmed uuesti.")
+    print("Sisestage uued andmed.")
     kustutatud = profiili_kustutamine(muudetav)
     if kustutatud == 0:
         print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
