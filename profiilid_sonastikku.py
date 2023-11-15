@@ -19,5 +19,3 @@ def profiilid_sõnastikku():
         
 
     return profiilid
-
-print(profiilid_sõnastikku())
