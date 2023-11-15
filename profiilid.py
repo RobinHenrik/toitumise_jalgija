@@ -22,7 +22,7 @@ def profiilid():
         while tehtud == 0:
 
             try:
-                nimi = input("Sisestage oma nimi: ")
+                nimi = input("Sisestage oma nimi: ").lower()
                 andmed = faili_lugemine()
                 for jar in andmed:
                     if jar[0] == nimi:
@@ -158,6 +158,3 @@ def profiilid():
             print("Antud nimega profiili ei eksisteeri.")
 
     return sonastik
-
-profiili_andmed = profiilid()
-print(profiili_andmed)
