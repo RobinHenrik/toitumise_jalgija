@@ -10,7 +10,7 @@ def toidud_sõnastikku():
         rasvad = float(rida[3])
         kiudained = float(rida[4])
         valgud = float(rida[5])
-        suhkrud = float(rida[7])
+        suhkrud = float(rida[6])
         toiduandmed[toidu_nimi] = {}
         toiduandmed[toidu_nimi]['kcal'] = kcal
         toiduandmed[toidu_nimi]['süsivesikud'] = susivesikud
