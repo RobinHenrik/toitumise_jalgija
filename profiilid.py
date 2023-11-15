@@ -7,18 +7,21 @@ def faili_lugemine():
         for rida in f:
             if rida.strip() != '':
                 andmed.append(rida.strip().split(','))
-    return andmed
 
+    for jar in andmed:                #TEEN KÕIK ANDMED FAILIS PEALE NIME FLOATIDEKS
+        for i in range(1, len(jar)):
+            jar[i] = float(jar[i])
+    return andmed
 
 
 def profiili_loomine():
 
     nimi = input("Sisestage oma nimi: ")
-    vanus = int(input("Sisestage oma vanus: "))
-    kaal = float(input("Sisestage oma kehakaal: "))
-    pikkus = int(input("Sisestage oma pikkus: "))
+    vanus = float(input("Sisestage oma vanus: "))
+    kaal = float(input("Sisestage oma kehakaal(kg): "))
+    pikkus = float(input("Sisestage oma pikkus(cm): "))
     with open("profiilid.txt", "a", encoding="utf-8") as f:
-        f.write(f"{nimi},{vanus},{kaal},{pikkus}\n")
+        f.write(f"{nimi},{vanus},{kaal},{pikkus},{round(kaal / ((pikkus/100) ** 2), 2)}\n") #LISAN FAILI PROFIILI: NIMI,VANUS,KAAL,PIKKUS,BMI
     andmed = faili_lugemine()
 
 
@@ -86,10 +89,17 @@ while tegu != "c":
         profiili_loomine()
         print("Profiil loodud!")
         #andmed = faili_lugemine()
+
     elif tegu == "b": #profiili muutmine
         prindi_profiilinimed()
         muudetav = input("Muudetava profiili nimi: ")
         sobis = profiili_muutmine(muudetav)
+<<<<<<< HEAD:jalgija.py
+=======
+        #if sobis == False:
+            #print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
+
+>>>>>>> marten:profiilid.py
     elif tegu == "x": #profiili kustutamine
         prindi_profiilinimed()
         kustutatav = input("Sisesta kustutatava profiili nimi(C kui soovid tühistada): ").lower()
@@ -101,8 +111,10 @@ while tegu != "c":
             else:
                 print("Profiil edukalt kustutatud")
                 time.sleep(1)
+
     elif tegu == "c":
         break
+
     else:
         print("Peate sisestama A, B, C või C")
 
