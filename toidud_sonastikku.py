@@ -10,7 +10,6 @@ def toidud_sõnastikku():
         rasvad = float(rida[3])
         kiudained = float(rida[4])
         valgud = float(rida[5])
-        vesi = float(rida[6])
         suhkrud = float(rida[7])
         toiduandmed[toidu_nimi] = {}
         toiduandmed[toidu_nimi]['kcal'] = kcal
@@ -19,10 +18,4 @@ def toidud_sõnastikku():
         toiduandmed[toidu_nimi]['rasvad'] = rasvad
         toiduandmed[toidu_nimi]['valgud'] = valgud
         toiduandmed[toidu_nimi]['kiudained'] = kiudained
-        toiduandmed[toidu_nimi]['vesi'] = vesi
     return toiduandmed
-
-toiduandmed = toidud_sõnastikku()
-
-seahakkliha_kcal = toiduandmed['seahakkliha']['kcal']
-print(seahakkliha_kcal)
