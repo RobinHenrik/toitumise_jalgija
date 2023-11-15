@@ -15,14 +15,22 @@ def faili_lugemine():
 
 
 def profiili_loomine():
+    tehtud = 0
+    while tehtud == 0:
+        try:
+            nimi = input("Sisestage oma nimi: ")
+            vanus = float(input("Sisestage oma vanus: "))
+            kaal = float(input("Sisestage oma kehakaal(kg): "))
+            pikkus = float(input("Sisestage oma pikkus(cm): "))
+            with open("profiilid.txt", "a", encoding="utf-8") as f:
+                f.write(f"{nimi},{vanus},{kaal},{pikkus},{round(kaal / ((pikkus/100) ** 2), 2)}\n") #LISAN FAILI PROFIILI: NIMI,VANUS,KAAL,PIKKUS,BMI
+            andmed = faili_lugemine()
+            tehtud += 1
 
-    nimi = input("Sisestage oma nimi: ")
-    vanus = float(input("Sisestage oma vanus: "))
-    kaal = float(input("Sisestage oma kehakaal(kg): "))
-    pikkus = float(input("Sisestage oma pikkus(cm): "))
-    with open("profiilid.txt", "a", encoding="utf-8") as f:
-        f.write(f"{nimi},{vanus},{kaal},{pikkus},{round(kaal / ((pikkus/100) ** 2), 2)}\n") #LISAN FAILI PROFIILI: NIMI,VANUS,KAAL,PIKKUS,BMI
-    andmed = faili_lugemine()
+        except ValueError:
+            print("Sisestasite midagi valesti. Vanus, kaal ja pikkus peavad olema numbrilised.\nProovige uuesti.")
+            time.sleep(0.5)
+
 
 
 
@@ -56,6 +64,7 @@ def profiili_kustutamine(kustutatav): #PROFIILIDE KUSTUTAMINE
 
 
 def profiili_muutmine(muudetav):
+    print("Sisestage andmed uuesti.")
     kustutatud = profiili_kustutamine(muudetav)
     if kustutatud == 0:
         print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
