@@ -94,12 +94,9 @@ while tegu != "c":
         prindi_profiilinimed()
         muudetav = input("Muudetava profiili nimi: ")
         sobis = profiili_muutmine(muudetav)
-<<<<<<< HEAD:jalgija.py
-=======
         #if sobis == False:
             #print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
 
->>>>>>> marten:profiilid.py
     elif tegu == "x": #profiili kustutamine
         prindi_profiilinimed()
         kustutatav = input("Sisesta kustutatava profiili nimi(C kui soovid tühistada): ").lower()
