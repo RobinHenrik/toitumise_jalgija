@@ -43,7 +43,7 @@ def profiili_kustutamine(kustutatav): #PROFIILIDE KUSTUTAMINE
     with open('profiilid.txt', "w", encoding='utf-8') as f:
         for i in range(len(andmed)):
             andmed[i] = andmed[i].strip().split(",")
-            if andmed[i][0] != kustutatav:
+            if andmed[i][0].lower() != kustutatav.lower():
                 f.write(",".join(andmed[i]) + "\n")
             else:
                 kustutatud += 1
@@ -90,8 +90,6 @@ while tegu != "c":
         prindi_profiilinimed()
         muudetav = input("Muudetava profiili nimi: ")
         sobis = profiili_muutmine(muudetav)
-        #if sobis == False:
-            #print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
     elif tegu == "x": #profiili kustutamine
         prindi_profiilinimed()
         kustutatav = input("Sisesta kustutatava profiili nimi(C kui soovid tühistada): ").lower()
