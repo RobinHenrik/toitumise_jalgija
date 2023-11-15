@@ -6,7 +6,7 @@ def lisa_andmebaasi():
     if toit.lower() in andmed.keys():
         print("See toit on juba andmebaasis")
         return False
-    f = open("toiduandmed.csv", "a", encoding="utf-8")
+    f = open("toiduandmed.csv", "a", encoding="utf-8-sig")
 
     while True:
         try:

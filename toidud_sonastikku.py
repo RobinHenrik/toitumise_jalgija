@@ -1,5 +1,5 @@
 def toidud_sõnastikku():
-    f = open("toiduandmed.csv", "r", encoding="utf-8")
+    f = open("toiduandmed.csv", "r", encoding="utf-8-sig")
     toiduandmed = {}
     for rida in f:
         rida = rida.strip("\n")
