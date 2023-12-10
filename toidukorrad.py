@@ -1,4 +1,5 @@
 from andmebaasi_funktsioonid import lisa_andmebaasi
+from andmebaasi_funktsioonid import toidud_sõnastikku
 from datetime import date
 import time
 import os
@@ -44,6 +45,7 @@ def toidukorra_lisamine(profiili_nimi, toidu_andmebaas):
                     valik = input("Kas soovid toidu andmebaasi lisada? (Y/N) ").lower()
                     if valik == "y":
                         lisa_andmebaasi()
+                        toidu_andmebaas = toidud_sõnastikku()
                         break
                     elif valik == "n":
                         break
