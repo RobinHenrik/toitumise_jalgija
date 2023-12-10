@@ -1,4 +1,5 @@
 import time
+import os
 from profiilid_sonastikku import profiilid_sõnastikku
 
 def profiilid(): 
@@ -16,7 +17,7 @@ def profiilid():
         return andmed
 
 
-    def profiili_loomine():
+    def profiili_loomine(muudetav="", tegu=0):
 
         tehtud = 0
         while tehtud == 0:
@@ -37,6 +38,23 @@ def profiilid():
                     f.write(f"{nimi},{vanus},{kaal},{pikkus},{round(kaal / ((pikkus/100) ** 2), 2)}\n") #LISAN FAILI PROFIILI: NIMI,VANUS,KAAL,PIKKUS,BMI
                 andmed = faili_lugemine()
                 tehtud += 1
+
+                #Loon kausta profiilid antud nimega tekstifaili
+                if tegu == 0:
+                    fail = os.path.join('profiilid', f'{nimi}.txt')
+                    with open(fail, 'w', encoding='utf-8') as f:
+                        pass
+                
+                elif tegu == 1: #Failinime muutmine
+                    failitee = 'profiilid/' + muudetav + '.txt'
+                    print(failitee)
+                    
+                    tee, x = os.path.split(failitee)
+                    print(tee, failitee)
+                    uus_failitee = os.path.join(f"{tee}/", f"{nimi}.txt")
+
+                    os.rename(failitee, uus_failitee)
+
 
 
             except ValueError:
@@ -59,7 +77,7 @@ def profiilid():
 
 
 
-    def profiili_kustutamine(kustutatav): #PROFIILIDE KUSTUTAMINE
+    def profiili_kustutamine(kustutatav, tegu=0): #PROFIILIDE KUSTUTAMINE
         kustutatud = 0 #KUI MINGI RIDA EI KIRJUTATA UUESTI FAILI, SIIS MUUTUB SELLE VÄÄRTUS SUUREMAKS JA SAAN ANDA KASUTAJALE TEADA, ET RIDA EI KUSTUTATUD
 
         with open('profiilid.txt', encoding='utf-8') as f:
@@ -72,6 +90,13 @@ def profiilid():
                     f.write(",".join(andmed[i]) + "\n")
                 else:
                     kustutatud += 1
+
+        if kustutatud == 1 and tegu == 0:
+            fail = 'profiilid/' + kustutatav + '.txt'
+            os.remove(fail)
+            print(f"Fail {fail} kustutatud")
+
+
         faili_lugemine()
         return kustutatud
 
@@ -79,11 +104,11 @@ def profiilid():
 
     def profiili_muutmine(muudetav):
         print("Sisestage uued andmed.")
-        kustutatud = profiili_kustutamine(muudetav)
+        kustutatud = profiili_kustutamine(muudetav, 1)
         if kustutatud == 0:
             print("Profiil antud nimega puudub, äkki sisestasid profiilinime valesti?")
         else:
-            profiili_loomine()
+            profiili_loomine(muudetav, 1)
             print("Profiil muudetud!")
 
 
