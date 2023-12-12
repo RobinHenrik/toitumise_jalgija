@@ -64,8 +64,8 @@ def toidukorra_lisamine(profiili_nimi, toidu_andmebaas):
                 kiudained = round(andmed["kiudained"] * gramme, 2)
 
 
-                f.write(f"{toit} - {gramme * 100}g - kcal: {kcal}, süsivesikud: {susivesikud} \
-suhkruid: {suhkrud}, rasvad: {rasvad}, valgud: {valgud}, kiudained: {kiudained} \n")
+                f.write(f"{toit},{gramme * 100}g,kcal: {kcal},süsivesikud: {susivesikud},\
+suhkruid: {suhkrud},rasvad: {rasvad},valgud: {valgud},kiudained: {kiudained} \n")
                 
         elif tegevus == "v":
             break
