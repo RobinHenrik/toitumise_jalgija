@@ -1,0 +1,66 @@
+17/12/2023
+sealiha,200.0g,kcal: 606.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 46.4,valgud: 47.2,kiudained: 0.0 
+kohupiim,100.0g,kcal: 102.0,süsivesikud: 4.04,suhkruid: 4.04,rasvad: 5.01,valgud: 10.3,kiudained: 0.0 
+kartul,100.0g,kcal: 74.7,süsivesikud: 17.0,suhkruid: 0.62,rasvad: 0.1,valgud: 1.96,kiudained: 1.03 
+
+arbuus,200.0g,kcal: 67.0,süsivesikud: 14.68,suhkruid: 14.0,rasvad: 0.6,valgud: 1.0,kiudained: 0.2 
+vesi,2000.0g,kcal: 0.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 0.0,valgud: 0.0,kiudained: 0.0 
+mahl,200.0g,kcal: 97.0,süsivesikud: 23.6,suhkruid: 22.4,rasvad: 0.1,valgud: 0.73,kiudained: 0.25 
+mesi,20.0g,kcal: 65.0,süsivesikud: 16.16,suhkruid: 16.16,rasvad: 0.0,valgud: 0.1,kiudained: 0.0 
+
+õli,20.0g,kcal: 180.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 20.0,valgud: 0.0,kiudained: 0.0 
+jogurt,200.0g,kcal: 210.0,süsivesikud: 14.0,suhkruid: 14.0,rasvad: 10.0,valgud: 16.0,kiudained: 0.0 
+leib,50.0g,kcal: 105.5,süsivesikud: 24.15,suhkruid: 0.8,rasvad: 0.6,valgud: 3.5,kiudained: 5.35 
+hapukoor 20%,50.0g,kcal: 111.0,süsivesikud: 1.9,suhkruid: 1.9,rasvad: 10.75,valgud: 1.65,kiudained: 0.0 
+
+
+
+18/12/2023
+kaalikas,200.0g,kcal: 71.2,süsivesikud: 18.24,suhkruid: 11.8,rasvad: 0.2,valgud: 2.2,kiudained: 5.8 
+tomat,100.0g,kcal: 21.9,süsivesikud: 4.9,suhkruid: 3.4,rasvad: 0.3,valgud: 0.6,kiudained: 1.4 
+porgand,122.0g,kcal: 39.528,süsivesikud: 10.37,suhkruid: 6.59,rasvad: 0.24,valgud: 0.73,kiudained: 3.54 
+õunamahl,200.0g,kcal: 82.6,süsivesikud: 20.6,suhkruid: 19.4,rasvad: 0.0,valgud: 0.5,kiudained: 0.0 
+makaronid,200.0g,kcal: 316.0,süsivesikud: 66.2,suhkruid: 0.44,rasvad: 1.58,valgud: 10.8,kiudained: 2.98 
+lõhe,200.0g,kcal: 510.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 35.0,valgud: 48.6,kiudained: 0.0 
+banaan,200.0g,kcal: 181.2,süsivesikud: 43.4,suhkruid: 36.2,rasvad: 0.4,valgud: 2.4,kiudained: 2.8 
+mustikad,200.0g,kcal: 118.0,süsivesikud: 27.0,suhkruid: 16.8,rasvad: 1.6,valgud: 2.2,kiudained: 6.6 
+
+kalmaar,100.0g,kcal: 102.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 1.78,valgud: 21.5,kiudained: 0.0 
+
+kartulikrõpsud,200.0g,kcal: 876.0,süsivesikud: 150.0,suhkruid: 15.2,rasvad: 28.0,valgud: 10.0,kiudained: 8.0 
+
+
+
+19/12/2023
+kinoa,100.0g,kcal: 111.0,süsivesikud: 20.4,suhkruid: 0.94,rasvad: 2.0,valgud: 4.08,kiudained: 2.55 
+kuskuss,200.0g,kcal: 242.0,süsivesikud: 50.2,suhkruid: 1.51,rasvad: 1.44,valgud: 8.26,kiudained: 2.54 
+tee,200.0g,kcal: 0.8,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 0.0,valgud: 0.2,kiudained: 0.0 
+ketšup,100.0g,kcal: 90.9,süsivesikud: 21.6,suhkruid: 21.3,rasvad: 0.1,valgud: 1.04,kiudained: 0.3 
+majonees,400.0g,kcal: 1892.0,süsivesikud: 20.2,suhkruid: 9.2,rasvad: 200.0,valgud: 2.8,kiudained: 0.04 
+energiajook,200.0g,kcal: 90.6,süsivesikud: 21.8,suhkruid: 0.0,rasvad: 0.16,valgud: 0.5,kiudained: 0.0 
+kaheksajalg,500.0g,kcal: 344.5,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 5.6,valgud: 73.5,kiudained: 0.0 
+peedimahl,200.0g,kcal: 68.8,süsivesikud: 15.4,suhkruid: 14.8,rasvad: 0.0,valgud: 1.8,kiudained: 0.0 
+
+
+
+20/12/2023
+peedimahl,250.0g,kcal: 86.0,süsivesikud: 19.25,suhkruid: 18.5,rasvad: 0.0,valgud: 2.25,kiudained: 0.0 
+ingver,20.0g,kcal: 6.840000000000001,süsivesikud: 1.28,suhkruid: 0.34,rasvad: 0.15,valgud: 0.36,kiudained: 0.54 
+mädarõigas,400.0g,kcal: 416.0,süsivesikud: 81.2,suhkruid: 34.4,rasvad: 2.8,valgud: 30.8,kiudained: 29.2 
+lastevorst,600.0g,kcal: 1506.0,süsivesikud: 12.18,suhkruid: 1.2,rasvad: 128.4,valgud: 76.2,kiudained: 0.18 
+jalapeno,100.0g,kcal: 25.9,süsivesikud: 4.74,suhkruid: 2.14,rasvad: 0.94,valgud: 0.92,kiudained: 2.6 
+õlu,2000.0g,kcal: 700.0,süsivesikud: 48.0,suhkruid: 44.0,rasvad: 0.0,valgud: 6.0,kiudained: 0.0 
+
+
+
+21/12/2023
+veiseliha,200.0g,kcal: 346.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 11.5,valgud: 60.8,kiudained: 0.0 
+makaronid,140.0g,kcal: 221.2,süsivesikud: 46.34,suhkruid: 0.31,rasvad: 1.11,valgud: 7.56,kiudained: 2.09 
+riis,100.0g,kcal: 129.0,süsivesikud: 29.5,suhkruid: 0.11,rasvad: 0.27,valgud: 2.5,kiudained: 0.87 
+grillvorst,150.0g,kcal: 423.0,süsivesikud: 15.15,suhkruid: 2.52,rasvad: 31.95,valgud: 18.9,kiudained: 0.16 
+mandariin,200.0g,kcal: 87.4,süsivesikud: 20.8,suhkruid: 16.9,rasvad: 0.2,valgud: 1.8,kiudained: 2.5 
+vahtrasiirup,20.0g,kcal: 48.6,süsivesikud: 12.08,suhkruid: 12.08,rasvad: 0.02,valgud: 0.0,kiudained: 0.0 
+energiajook,200.0g,kcal: 90.6,süsivesikud: 21.8,suhkruid: 0.0,rasvad: 0.16,valgud: 0.5,kiudained: 0.0 
+vahukommid,100.0g,kcal: 348.0,süsivesikud: 83.1,suhkruid: 64.5,rasvad: 0.0,valgud: 3.9,kiudained: 0.0 
+kitsejuust,100.0g,kcal: 359.0,süsivesikud: 1.1,suhkruid: 0.0,rasvad: 29.8,valgud: 21.6,kiudained: 0.0 
+vürtsikilu,50.0g,kcal: 109.5,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 6.55,valgud: 12.6,kiudained: 0.0 

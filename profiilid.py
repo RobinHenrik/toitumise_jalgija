@@ -47,10 +47,9 @@ def profiilid():
                 
                 elif tegu == 1: #Failinime muutmine
                     failitee = 'profiilid/' + muudetav + '.txt'
-                    print(failitee)
                     
                     tee, x = os.path.split(failitee)
-                    print(tee, failitee)
+
                     uus_failitee = os.path.join(f"{tee}/", f"{nimi}.txt")
 
                     os.rename(failitee, uus_failitee)

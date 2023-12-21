@@ -38,7 +38,7 @@ def toidukorra_lisamine(profiili_nimi, toidu_andmebaas):
             if toit not in toidu_andmebaas.keys():
                 while True:
                     print("Sellist toitu meie andmebaasis ei ole. Võite proovida toiduaine üldisemat nimetamist.")
-                    print("Äkki mütlesite mõnda järgnevatest toiduainetest: ")
+                    print("Äkki mõtlesite mõnda järgnevatest toiduainetest: ")
                     for key in toidu_andmebaas.keys():
                         if toit in key:
                             print(key)
@@ -53,8 +53,15 @@ def toidukorra_lisamine(profiili_nimi, toidu_andmebaas):
                         print("Vigane sisend")
             
             else:
-
-                gramme = int(input("Sisesta toiduaine kogus grammides: ")) / 100
+                while True:
+                    gramme = input("Sisesta toiduaine kogus grammides: ")
+                    if gramme.isnumeric():
+                        gramme = int(gramme)
+                        break
+                    else:
+                        print("Vigane sisend")
+                        continue
+                gramme = gramme / 100
                 andmed = toidu_andmebaas[toit]
                 kcal = andmed["kcal"] * gramme
                 susivesikud = round(andmed["süsivesikud"] * gramme, 2)

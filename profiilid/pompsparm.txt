@@ -1,0 +1,15 @@
+
+12/12/2023
+kanahakklihasegu,200.0g,kcal: 380.0,süsivesikud: 4.16,suhkruid: 0.21,rasvad: 26.8,valgud: 30.8,kiudained: 0.35 
+kodune hakkliha,400.0g,kcal: 1756.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 148.8,valgud: 103.6,kiudained: 0.0 
+
+
+
+21/12/2023
+veiseliha,200.0g,kcal: 346.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 11.5,valgud: 60.8,kiudained: 0.0 
+friikartulid,100.0g,kcal: 153.0,süsivesikud: 26.0,suhkruid: 0.61,rasvad: 5.14,valgud: 1.52,kiudained: 0.8 
+grillvorst,150.0g,kcal: 423.0,süsivesikud: 15.15,suhkruid: 2.52,rasvad: 31.95,valgud: 18.9,kiudained: 0.16 
+mandariin,200.0g,kcal: 87.4,süsivesikud: 20.8,suhkruid: 16.9,rasvad: 0.2,valgud: 1.8,kiudained: 2.5 
+makaronid,100.0g,kcal: 158.0,süsivesikud: 33.1,suhkruid: 0.22,rasvad: 0.79,valgud: 5.4,kiudained: 1.49 
+tomatipasta,100.0g,kcal: 71.2,süsivesikud: 16.6,suhkruid: 8.4,rasvad: 0.0,valgud: 3.0,kiudained: 3.6 
+seahakkliha,100.0g,kcal: 365.0,süsivesikud: 0.0,suhkruid: 0.0,rasvad: 29.9,valgud: 23.9,kiudained: 0.0 
